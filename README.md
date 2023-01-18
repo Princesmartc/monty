@@ -113,48 +113,4 @@ $
 pall This is the end of our program. Monty is awesome!$
 julien@ubuntu:~/monty$
 
-    Some examples of using monty and its console output.
-
-Example #1 	Example #2 	Example #3
-~/monty$ cat -e bytecodes/00.m
-push 1$
-push 2$
-push 3$
-pall$
-~/monty$ ./monty bytecodes/00.m
-3
-2
-1 	~/monty$ cat bytecodes/07.m
-push 1
-push 2
-push 3
-pall
-pop
-pall
-pop
-pall
-pop
-pall
-~/monty$ ./monty bytecodes/07.m
-3
-2
-1
-2
-1
-1 	~/monty$ cat bytecodes/09.m
-push 1
-push 2
-push 3
-pall
-swap
-pall
-~/monty$ ./monty bytecodes/09.m
-3
-2
-1
-2
-3
-1
-Authors/Collaborators
-
-Dr Marcus & Abudullah
+  
